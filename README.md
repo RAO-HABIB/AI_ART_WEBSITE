@@ -1,4 +1,8 @@
 # 🎨 AI ART — AI-Powered Creative Tools Platform
+   
+🌟 Overview
+
+**AI ART** is a full-stack web application that serves as a comprehensive directory and platform for AI-powered creative tools. Users can discover, explore, and use 100+ AI tools for image generation, video creation, audio production, 3D modeling, and more.
 
 <div align="center">
 
@@ -35,9 +39,7 @@ Generate images, videos, music, and 3D models with cutting-edge AI technology.
 
 ---
 
-## 🌟 Overview
 
-**AI ART** is a full-stack web application that serves as a comprehensive directory and platform for AI-powered creative tools. Users can discover, explore, and use 100+ AI tools for image generation, video creation, audio production, 3D modeling, and more.
 
 ### What makes AI ART special?
 
