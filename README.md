@@ -13,7 +13,7 @@
 **The most comprehensive AI-powered creative tools platform.**  
 Generate images, videos, music, and 3D models with cutting-edge AI technology.
 
-[🚀 Live Demo](#) • [📖 Documentation](#) • [🐛 Report Bug](#) • [✨ Request Feature](#)
+![Website Preview](public/Preview.webp)
 
 </div>
 
