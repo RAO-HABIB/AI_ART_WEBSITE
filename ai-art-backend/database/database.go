@@ -17,12 +17,13 @@ func Connect() {
 	cfg := config.AppConfig
 
 	dsn := fmt.Sprintf(
-		"host=%s port=%s user=%s password=%s dbname=%s sslmode=disable TimeZone=Asia/Karachi",
+		"host=%s port=%s user=%s password=%s dbname=%s sslmode=%s TimeZone=Asia/Karachi",
 		cfg.DBHost,
 		cfg.DBPort,
 		cfg.DBUser,
 		cfg.DBPassword,
 		cfg.DBName,
+		cfg.DBSSLMode,
 	)
 
 	var logLevel logger.LogLevel
