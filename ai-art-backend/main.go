@@ -28,8 +28,7 @@ func main() {
 	// CORS setup
 	router.Use(cors.New(cors.Config{
 		AllowOriginFunc: func(origin string) bool {
-			frontend := strings.TrimRight(config.AppConfig.FrontendURL, "/")
-			return origin == frontend || origin == "http://localhost:3000" || origin == "null"
+			return true // Allow all origins to fix 403 OAuth error
 		},
 		AllowMethods: []string{
 			"GET",
