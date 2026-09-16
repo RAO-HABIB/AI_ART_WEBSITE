@@ -5,6 +5,7 @@ import (
 	"ai-art-backend/database"
 	"ai-art-backend/routes"
 	"log"
+	"strings"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -26,9 +27,9 @@ func main() {
 
 	// CORS setup
 	router.Use(cors.New(cors.Config{
-		AllowOrigins: []string{
-			config.AppConfig.FrontendURL,
-			"http://localhost:3000",
+		AllowOriginFunc: func(origin string) bool {
+			frontend := strings.TrimRight(config.AppConfig.FrontendURL, "/")
+			return origin == frontend || origin == "http://localhost:3000" || origin == "null"
 		},
 		AllowMethods: []string{
 			"GET",
