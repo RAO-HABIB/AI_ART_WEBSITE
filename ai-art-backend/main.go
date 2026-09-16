@@ -5,7 +5,6 @@ import (
 	"ai-art-backend/database"
 	"ai-art-backend/routes"
 	"log"
-	"strings"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
